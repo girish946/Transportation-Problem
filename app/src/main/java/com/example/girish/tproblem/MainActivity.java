@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        RadioButton rb = (RadioButton)findViewById(R.id.radioButton);
+        rb.setChecked(true);
+
 
        Button start = (Button)findViewById(R.id.button);
         start.setOnClickListener(new View.OnClickListener()

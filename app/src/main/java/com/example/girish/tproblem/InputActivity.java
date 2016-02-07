@@ -34,6 +34,9 @@ public class InputActivity extends AppCompatActivity {
         tl.addView(getTanbleRowHeading());
         tl.addView(getFirstRow());
 
+
+        tl.setVerticalScrollBarEnabled(true);
+
         for(int i =0;i<Problem.rows;i++)
         {
             tl.addView(getRow(i,false));
